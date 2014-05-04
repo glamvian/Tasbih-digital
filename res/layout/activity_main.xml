@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4fadb5" >
+
+   <AbsoluteLayout
+        android:id="@+id/absoluteLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/bagan"
+            android:layout_width="203dp"
+            android:layout_height="339dp"
+            android:layout_x="56dp"
+            android:layout_y="14dp"
+            android:src="@drawable/baganc" />
+
+        <ImageView
+            android:id="@+id/layarr"
+            android:layout_width="165dp"
+            android:layout_height="98dp"
+            android:layout_x="73dp"
+            android:layout_y="60dp"
+            android:src="@drawable/layar" />
+
+        <ImageView
+            android:id="@+id/r"
+            android:layout_width="42dp"
+            android:layout_height="34dp"
+            android:layout_x="202dp"
+            android:layout_y="166dp"
+            android:src="@drawable/tombol_r" />
+
+        <ImageView
+            android:id="@+id/c"
+            android:layout_width="136dp"
+            android:layout_height="113dp"
+            android:layout_x="90dp"
+            android:layout_y="196dp"
+            android:src="@drawable/tombol_c" />
+
+        <TextView
+            android:id="@+id/hum"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:layout_x="86dp"
+            android:layout_y="68dp"
+            android:text="0"
+            android:textColor="#ff000000"
+            android:textSize="70.0sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </AbsoluteLayout>
+</RelativeLayout>
